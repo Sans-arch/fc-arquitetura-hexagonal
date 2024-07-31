@@ -1,0 +1,3 @@
+Comando para rodar o mockgen dentro do container:
+
+mockgen -destination=application/mocks/application.go -source=application/product.go application
