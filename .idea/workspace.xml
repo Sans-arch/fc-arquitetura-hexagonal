@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create web server using negroni and mux">
-      <change afterPath="$PROJECT_DIR$/cmd/http.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/web/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/web/server/server.go" afterDir="false" />
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create CLI command to start the webserver">
+      <change afterPath="$PROJECT_DIR$/adapters/dto/product.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +199,8 @@
     <MESSAGE value="Code all the CLI command interactions with DB" />
     <MESSAGE value="Create web server interface, install mux and negroni" />
     <MESSAGE value="Create web server using negroni and mux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create web server using negroni and mux" />
+    <MESSAGE value="Create CLI command to start the webserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create CLI command to start the webserver" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
