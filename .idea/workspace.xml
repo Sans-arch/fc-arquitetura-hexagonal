@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create ProductDTO">
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create endpoint to Create Product in webserver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapters/dto/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/dto/product.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapters/web/handler/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/web/handler/product.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +202,8 @@
     <MESSAGE value="Create web server using negroni and mux" />
     <MESSAGE value="Create CLI command to start the webserver" />
     <MESSAGE value="Create ProductDTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ProductDTO" />
+    <MESSAGE value="Create endpoint to Create Product in webserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create endpoint to Create Product in webserver" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
