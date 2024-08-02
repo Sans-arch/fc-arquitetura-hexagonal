@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create CLI adapter">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fc-arquitetura-hexagonal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.linux-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sans-arch&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Sans-arch/fc-arquitetura-hexagonal.git&quot;,
+    &quot;accountId&quot;: &quot;7d5b9638-5378-4dea-9eb3-d8b439a64d70&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2jyBmNVnVz8RKFhO4LIvvt5ROJT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductService_Create in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductService_Enable in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductService_EnableDisable in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductService_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_Disable in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_Enable in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_GetID in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_GetName in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_GetPrice in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_GetStatus in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_IsValid in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/santiago/projects/fc-arquitetura-hexagonal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli">
+    <configuration name="go build github.com/Sans-arch/fc-arquitetura-hexagonal" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="fc-arquitetura-hexagonal" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fc-arquitetura-hexagonal" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestProductDb_Get\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fc-arquitetura-hexagonal" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestProductDb_Save\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fc-arquitetura-hexagonal" />
+      <working_directory value="$PROJECT_DIR$/adapters/cli" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRun\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fc-arquitetura-hexagonal" />
+      <working_directory value="$PROJECT_DIR$/adapters/db" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" />
+        <item itemvalue="Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal" />
+        <item itemvalue="Go Test.go test github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+        <item itemvalue="Go Test.TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+        <item itemvalue="Go Test.TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create product" />
+    <MESSAGE value="Finish Unit Testing of Product" />
+    <MESSAGE value="Create ProductService interface" />
+    <MESSAGE value="Finish ProductService unit tests" />
+    <MESSAGE value="Add .gitignore" />
+    <MESSAGE value="Commit IntelliJ stuff" />
+    <MESSAGE value="Create DB Adapter&#10;&#10;* we'll use SQLite as DB implementation" />
+    <MESSAGE value="Create DB Adapter unit test" />
+    <MESSAGE value="Create Save and Get in db adapter" />
+    <MESSAGE value="Create Save and Update unit tests for db adapter" />
+    <MESSAGE value="Remove &quot;deprecated&quot; version declaration in docker compose file" />
+    <MESSAGE value="Create db, config container issues, run application&#10;&#10;* test the application behavior using a real db implementation (sqlite3)&#10;* change the go version to 1.19 because of dependencies issues" />
+    <MESSAGE value="Create CLI adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create CLI adapter" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
