@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Install Cobra CLI">
-      <change afterPath="$PROJECT_DIR$/cmd/cli.go" afterDir="false" />
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Code all the CLI command interactions with DB">
+      <change afterPath="$PROJECT_DIR$/adapters/web/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +198,8 @@
     <MESSAGE value="Create db, config container issues, run application&#10;&#10;* test the application behavior using a real db implementation (sqlite3)&#10;* change the go version to 1.19 because of dependencies issues" />
     <MESSAGE value="Create CLI adapter" />
     <MESSAGE value="Install Cobra CLI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Cobra CLI" />
+    <MESSAGE value="Code all the CLI command interactions with DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code all the CLI command interactions with DB" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
