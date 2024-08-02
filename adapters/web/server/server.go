@@ -1,6 +1,7 @@
 package server
 
 import (
+	"github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler"
 	"github.com/Sans-arch/fc-arquitetura-hexagonal/application"
 	"github.com/codegangsta/negroni"
 	_ "github.com/codegangsta/negroni"
@@ -25,7 +26,8 @@ func (w Webserver) Serve() {
 	n := negroni.New(
 		negroni.NewLogger(),
 	)
-
+	handler.MakeProductHandlers(r, n, w.Service)
+	http.Handle("/", r)
 	server := &http.Server{
 		ReadHeaderTimeout: 10 * time.Second,
 		WriteTimeout:      10 * time.Second,

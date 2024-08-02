@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Code all the CLI command interactions with DB">
-      <change afterPath="$PROJECT_DIR$/adapters/web/server/server.go" afterDir="false" />
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create web server interface, install mux and negroni">
+      <change afterPath="$PROJECT_DIR$/adapters/web/handler/error_json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapters/web/handler/error_json_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapters/web/handler/product.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapters/web/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/adapters/web/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
     &quot;Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestHandler_jsonError in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler.executor&quot;: &quot;Run&quot;,
     &quot;Go Test.TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db.executor&quot;: &quot;Run&quot;,
     &quot;Go Test.TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db.executor&quot;: &quot;Run&quot;,
     &quot;Go Test.TestProductService_Create in github.com/Sans-arch/fc-arquitetura-hexagonal/application.executor&quot;: &quot;Run&quot;,
@@ -92,7 +94,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal">
+  <component name="RunManager" selected="Go Test.TestHandler_jsonError in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler">
     <configuration name="go build github.com/Sans-arch/fc-arquitetura-hexagonal" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="fc-arquitetura-hexagonal" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,16 +104,16 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHandler_jsonError in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="fc-arquitetura-hexagonal" />
-      <working_directory value="$PROJECT_DIR$/adapters/db" />
+      <working_directory value="$PROJECT_DIR$/adapters/web/handler" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
+      <package value="github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductDb_Get\E$" />
+      <pattern value="^\QTestHandler_jsonError\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestHandler_jsonError in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/web/handler" />
         <item itemvalue="Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal" />
         <item itemvalue="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" />
         <item itemvalue="Go Test.go test github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
         <item itemvalue="Go Test.TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
-        <item itemvalue="Go Test.TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +201,8 @@
     <MESSAGE value="Create CLI adapter" />
     <MESSAGE value="Install Cobra CLI" />
     <MESSAGE value="Code all the CLI command interactions with DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code all the CLI command interactions with DB" />
+    <MESSAGE value="Create web server interface, install mux and negroni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create web server interface, install mux and negroni" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
