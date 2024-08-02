@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Create CLI adapter">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fc-arquitetura-hexagonal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="be185307-f422-4a1a-9922-e9f7e97206b4" name="Changes" comment="Install Cobra CLI">
+      <change afterPath="$PROJECT_DIR$/cmd/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli">
+  <component name="RunManager" selected="Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal">
     <configuration name="go build github.com/Sans-arch/fc-arquitetura-hexagonal" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="fc-arquitetura-hexagonal" />
       <working_directory value="$PROJECT_DIR$" />
@@ -157,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" />
         <item itemvalue="Go Build.go build github.com/Sans-arch/fc-arquitetura-hexagonal" />
+        <item itemvalue="Go Test.TestRun in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/cli" />
         <item itemvalue="Go Test.go test github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
         <item itemvalue="Go Test.TestProductDb_Save in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
         <item itemvalue="Go Test.TestProductDb_Get in github.com/Sans-arch/fc-arquitetura-hexagonal/adapters/db" />
@@ -203,7 +197,8 @@
     <MESSAGE value="Remove &quot;deprecated&quot; version declaration in docker compose file" />
     <MESSAGE value="Create db, config container issues, run application&#10;&#10;* test the application behavior using a real db implementation (sqlite3)&#10;* change the go version to 1.19 because of dependencies issues" />
     <MESSAGE value="Create CLI adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CLI adapter" />
+    <MESSAGE value="Install Cobra CLI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install Cobra CLI" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
